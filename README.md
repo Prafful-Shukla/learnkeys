@@ -2,6 +2,28 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Project Overview/Objective:
+The Typing Speed and Accuracy Tracker is a web application built using React that aims to help users improve their typing skills while monitoring their typing speed and accuracy. The primary goal of the project is to create an engaging and interactive platform for users to practice typing, enabling them to track their progress over time.
+
+## Key Features:
+
+### Real-time Typing: 
+The application provides a user-friendly typing interface where users can see the text they need to type. As they type, the application instantly highlights any mistakes, providing immediate feedback to enhance accuracy.
+
+### Speed Calculation: 
+Utilizing the useEffect and useState hooks in React, the application calculates and displays the user's typing speed in words per minute (WPM) as they complete typing exercises.
+
+### Accuracy Assessment: 
+The application evaluates the user's accuracy by comparing their input against the provided text. The accuracy percentage is displayed to users, motivating them to reduce errors and improve accuracy.
+
+### Progress Tracking: 
+To encourage continuous learning, the application saves users' typing scores and accuracy data. Users can review their historical data, identifying trends and areas for improvement.
+
+### Responsive Design with Bootstrap: 
+The project leverages the Bootstrap framework to ensure the application's responsiveness and compatibility across different devices and screen sizes, making it accessible to a wide range of users.
+
+####Through this project, users can enhance their typing skills in an interactive and fun way, with the ability to set personal goals and track their progress over time. The combination of React's useEffect and useState hooks facilitates real-time updates and seamless data handling, while Bootstrap ensures a visually appealing and user-friendly interface.
+
 ## Available Scripts
 
 In the project directory, you can run:
